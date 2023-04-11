@@ -1,0 +1,45 @@
+/*tablette*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .filters {
+    flex-direction: column;
+  }
+  .img_logement {
+    width: 268px;
+  }
+  .pop_heber {
+    flex-direction: column;
+    width: 926px;
+  }
+  .aline_pop {
+    flex-direction: row;
+  }
+  .img_pop {
+    height: 144px;
+    width: 92px;
+  }
+  #act {
+    margin-left: 30px;
+  }
+  .img_activites {
+    height: 200px;
+    width: 194px;
+  }
+  .nom_activites {
+    height: 70px;
+    width: 194px;
+    display: flex;
+    align-items: center;
+  }
+  #block_apropos {
+    width: 302px;
+  }
+  #block_nosheber {
+    width: 302px;
+  }
+  #block_assi {
+    width: 302px;
+  }
+}

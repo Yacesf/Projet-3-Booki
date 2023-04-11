@@ -1,0 +1,146 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  .divlink {
+    align-items: center;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .link {
+    justify-content: center;
+    border-bottom: solid 2px #f2f2f2;
+    width: 100%;
+  }
+  .link:hover {
+    border-top: none;
+    border-bottom: solid 2px #0065fc;
+  }
+  main {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  #recherche {
+    margin-left: 20px;
+  }
+  #button_recherche {
+    display: none;
+  }
+  #button_rm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    background-color: #0065fc;
+    color: white;
+    width: 50px;
+    height: 49px;
+  }
+  .filters {
+    margin-top: 35px;
+  }
+  .lesfiltres {
+    flex-direction: column;
+    align-items: start;
+  }
+  #eco_fami {
+    width: 100%;
+  }
+  #roman_pep {
+    width: 100%;
+  }
+  .filter_recherche {
+    justify-content: start;
+    width: 100%;
+    padding: 4px 15px;
+    font-size: 14px;
+  }
+  .filter_recherche i {
+    font-size: 22px;
+  }
+  .info_recherche {
+    margin-top: 35px;
+  }
+  .pop_heber {
+    width: auto;
+    flex-direction: column-reverse;
+  }
+  .block_pop {
+    width: auto;
+    padding: 30px 20px;
+    border-radius: 0;
+    gap: 15px;
+  }
+  .aline_pop {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .img_pop {
+    width: 112px;
+  }
+  .logement_pop {
+    width: auto;
+    height: auto;
+    padding-right: 20px;
+  }
+  .block_hebergement {
+    padding: 30px 20px;
+    border-radius: 0;
+    background-color: white;
+    gap: 15px;
+  }
+  .aline_logement {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .img_logement {
+    width: 100%;
+    height: 124px;
+  }
+  #act {
+    margin-left: 0;
+    margin-top: 45px;
+    padding: 20px 30px;
+  }
+  .section_activites {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .img_activites {
+    width: auto;
+    height: 141px;
+  }
+  .nom_activites {
+    width: auto;
+    height: auto;
+  }
+  footer {
+    margin-left: 0;
+    width: 100%;
+  }
+  #block_footer {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  #block_apropos {
+    margin-top: 30px;
+    width: auto;
+    height: 154px;
+  }
+  #block_nosheber {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: auto;
+    height: 154px;
+  }
+  #block_assi {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: auto;
+    height: 154px;
+  }
+}
