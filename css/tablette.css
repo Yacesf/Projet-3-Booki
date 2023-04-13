@@ -3,40 +3,29 @@
   .filters {
     flex-direction: column;
   }
-  .img_logement {
-    width: 268px;
-  }
   .pop_heber {
     flex-direction: column;
-    width: 926px;
   }
   .aline_pop {
     flex-direction: row;
   }
-  .img_pop {
-    height: 144px;
-    width: 92px;
+  .block_hebergement {
+    width: 100%;
   }
   #act {
-    margin-left: 30px;
+  margin-left: 30px;
   }
   .img_activites {
-    height: 200px;
-    width: 194px;
+    height: 55%;
+    width: 94%;
   }
   .nom_activites {
     height: 70px;
-    width: 194px;
+    width: 94%;
     display: flex;
     align-items: center;
   }
-  #block_apropos {
-    width: 302px;
-  }
-  #block_nosheber {
-    width: 302px;
-  }
-  #block_assi {
-    width: 302px;
+  footer {
+    margin: 0;
   }
 }

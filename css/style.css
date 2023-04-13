@@ -351,7 +351,7 @@ input::placeholder
 .img_pop
 {
     height: 144px;
-    width: 35%;
+    width: 32%;
     border: solid white;
     border-width: 5px 0 5px 5px;
     border-radius: 20px 0px 0px 20px;
@@ -425,7 +425,7 @@ footer
     display: flex;
     height: 100%;
     background-color: #F2F2F2;
-    gap: 285px;
+    padding-bottom: 20px;
 }
 #block_apropos
 {
@@ -434,6 +434,7 @@ footer
     margin-top: 20px;
     margin-left: 20px;
     gap: 15px;
+    width: 100%;
 }
 .text_footer
 {
@@ -458,6 +459,7 @@ footer
     align-items: flex-start;
     margin-top: 20px;
     gap: 15px;
+    width: 100%;
 }
 #block_assi
 {
@@ -466,4 +468,5 @@ footer
     align-items: flex-start;
     margin-top: 20px;
     gap: 15px;
+    width: 100%;
 }
