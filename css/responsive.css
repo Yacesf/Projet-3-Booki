@@ -1,8 +1,5 @@
 /*tablette*/
 @media (max-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
   .filters {
     flex-direction: column;
   }

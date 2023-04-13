@@ -18,11 +18,12 @@ body
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+    padding: 0 20px;
 }
 .container
 {
     max-width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,10 +94,15 @@ nav a:hover
  margin-top: 14px;
 }
 /*Main*/
+main 
+{
+    width: 100%;
+}
 .pop_heber
 {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 /*Filtre*/
 .title_recherche
@@ -238,12 +244,14 @@ input::placeholder
     gap: 30px;
     background-color: #F2F2F2;
     border-radius: 15px;
+    width: 75%;
 }
 .aline_logement
 {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    width: 100%;
 }
 .block_logement
 {
@@ -255,12 +263,13 @@ input::placeholder
     background-color: white;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    width: 31%;
 }
 .img_logement
 {
     box-sizing: border-box;
     height: 124px;
-    width: 240px;
+    width: 100%;
     border: 5px solid white;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -309,6 +318,7 @@ input::placeholder
     padding: 30px;
     background-color: #F2F2F2;
     gap: 30px;
+    width: 100%;
 }
 .icon_pop
 {
@@ -327,21 +337,21 @@ input::placeholder
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 100%;
 }
 .logement_pop
 {
     display: flex;
     background-color: white;
-    width: 369px;
-    height: 144px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding-right: 5px;
+    width: 100%;
 }
 .img_pop
 {
     height: 144px;
-    width: 123px;
+    width: 35%;
     border: solid white;
     border-width: 5px 0 5px 5px;
     border-radius: 20px 0px 0px 20px;
@@ -377,7 +387,6 @@ input::placeholder
 .section_activites
 {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 30px;
     gap: 30px;
 }
@@ -386,11 +395,12 @@ input::placeholder
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    width: 23%;
 }
 .img_activites
 {
-    height: 380px;
-    width: 297px;
+    height: 77%;
+    width: 100%;
     border-radius: 20px 20px 0 0;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     object-fit: cover;
@@ -408,12 +418,14 @@ input::placeholder
 footer
 {
     margin-top: 65px;
+    width: 100%;
 }
 #block_footer
 {
     display: flex;
-    height: 163px;
+    height: 100%;
     background-color: #F2F2F2;
+    gap: 285px;
 }
 #block_apropos
 {
@@ -422,7 +434,6 @@ footer
     margin-top: 20px;
     margin-left: 20px;
     gap: 15px;
-    width: 417px;
 }
 .text_footer
 {
@@ -447,7 +458,6 @@ footer
     align-items: flex-start;
     margin-top: 20px;
     gap: 15px;
-    width: 430px;
 }
 #block_assi
 {
@@ -456,5 +466,4 @@ footer
     align-items: flex-start;
     margin-top: 20px;
     gap: 15px;
-    width: 430px;
 }
