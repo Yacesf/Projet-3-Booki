@@ -105,7 +105,7 @@ main
     justify-content: space-between;
 }
 /*Filtre*/
-.title_recherche
+.title
 {
     display: flex;
     flex-direction: column;
